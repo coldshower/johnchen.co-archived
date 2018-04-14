@@ -1,0 +1,99 @@
+/*SECTIONS*/
+/*------------------------------------------------------------------------
+
+	I. General Styling
+	II. Sidebar
+	III. Home Page Styling
+	IV. About Page Styling
+	V. IDEV Page Styling
+	VI. Footer Styling
+
+--------------------------------------------------------------------------*/
+
+
+/* I. General Styling ----------------------------------------------------*/
+
+
+html, body {
+	margin: 0;
+	width: 100%;
+	font-family: Hack, monospace;
+	background-color: #fcfbfa;
+	color: #4b4949;
+	font-size: 18px;
+}
+
+a, a:hover, a:visited, a:focus {
+	text-decoration: none;
+	color: #4b4949;
+}
+
+a:hover, a:active {
+	border-bottom: 2px solid #555555;
+}
+
+div.full_wrapper {
+	width: 100%;
+	margin: 4% 0 0 3%;
+	height: auto;
+}
+
+
+/* II. Sidebar ----------------------------------------------------*/
+
+div.sidebar {
+	width: 15%;
+	float: left;
+}
+
+div.sidebar ul {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	list-style: none;	
+}
+
+div.sidebar ul li {
+	padding-bottom: 20px;
+}
+
+div.sidebar ul li span.side_subtext {
+	font-size: 85%;
+}
+
+/* III. Home Page Styling ----------------------------------------------------*/
+
+div.main_content {
+	float: left;
+	width: 80%;
+}
+
+div.main_content div.fish_wrapper {
+	margin-top: 25%;
+	margin-left: 25%;
+}
+
+/* IV. About Page Styling ----------------------------------------------------*/
+
+div.main_content div.main_wrapper {
+	margin-left: 13%;
+	width: 75%;
+}
+
+div.main_content div.main_wrapper a {
+	color: #4477C3;
+}
+
+div.main_content div.main_wrapper p {
+	padding-bottom: 20px;
+}
+
+/* IV. Footer Styling ----------------------------------------------------*/
+
+footer {
+	text-align: right;
+	margin-top: 20%;
+	float: left;
+	width: 100%;
+	font-size: 60%;
+}
